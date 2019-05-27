@@ -81,5 +81,5 @@ gulp.task("watch",()=>{
 //     gulp.watch("./src/html/*.html",["copy1"])
 //     gulp.watch("./src/*.html",["copy2"])
 // })
-//出口任务
+//出口任务  我在test分支上做了下修改
 gulp.task("default",["server","watch","changeCommonSrc","changeLibSrc","img"])
